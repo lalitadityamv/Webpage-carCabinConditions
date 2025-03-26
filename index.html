@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Environment Monitoring</title>
+    
+    <script type="module" src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🚗 Car Environment Monitoring</h1>
+
+    <!-- Tabs -->
+    <div class="tabs">
+        <div class="tab active" data-tab="tempTab">🌡️ Temperature</div>
+        <div class="tab" data-tab="humidityTab">💧 Humidity</div>
+        <div class="tab" data-tab="airQualityTab">🌬️ Air Quality</div>
+    </div>
+
+    <!-- Content Sections -->
+    <div id="tempTab" class="content active">
+        <h2>🌡️ Temperature</h2>
+        <p id="temperature" class="value">-- °C</p>
+        <p class="description">Keep the car at a comfortable temperature.</p>
+    </div>
+
+    <div id="humidityTab" class="content">
+        <h2>💧 Humidity</h2>
+        <p id="humidity" class="value">-- %</p>
+        <p class="description">Optimal humidity prevents windshield fogging.</p>
+    </div>
+
+    <div id="airQualityTab" class="content">
+        <h2>🌬️ Air Quality</h2>
+        <p id="airQuality" class="value">-- AQI</p>
+        <p id="airQualityDesc" class="description">Assessing environment...</p>
+    </div>
+
+</body>
+</html>
