@@ -4,13 +4,7 @@ import { getDatabase, ref, set, onValue } from "https://www.gstatic.com/firebase
 
 // Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyCxaPiM9pboYy1UWUIMEoihkxe7rQuexGg",
-    authDomain: "car-environment-monitor.firebaseapp.com",
-    databaseURL: "https://car-environment-monitor-default-rtdb.asia-southeast1.firebasedatabase.app",
-    projectId: "car-environment-monitor",
-    storageBucket: "car-environment-monitor.firebasestorage.app",
-    messagingSenderId: "982089273392",
-    appId: "1:982089273392:web:0dd94823459eee90ab5df5"
+    //get it from your db
   };
 
 // Initialize Firebase
